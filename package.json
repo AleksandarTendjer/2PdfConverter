@@ -1,0 +1,24 @@
+{
+  "name": "2pdfconverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandarTendjer/2PdfConverter.git"
+  },
+  "author": "Aleksandar Tendjer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandarTendjer/2PdfConverter/issues"
+  },
+  "homepage": "https://github.com/AleksandarTendjer/2PdfConverter#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
